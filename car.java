@@ -12,4 +12,8 @@ public class car {
 	public int getSpeed() {
 		return speed;
 	}
+
+	public int stopCar() {
+		speed = 0;
+	}
 }
